@@ -7,6 +7,34 @@
   pointer-events: none;
 }
 
+* {
+  font-family: sans-serif;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+.input {
+  display: block;
+  margin: 20px auto;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
